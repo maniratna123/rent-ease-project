@@ -32,9 +32,11 @@ nav {
       display: flex;
       align-items: center;
       
+      
 
       img {
-        width: 36px;
+        width: 270px;
+        height: 200px;
       }
 
       span {
@@ -53,7 +55,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: white;
+    background-color: rgb(243, 242, 242);
     height: 100%;
 
     @include md {
@@ -86,7 +88,9 @@ nav {
 
       .profile{
         padding: 12px 24px;
-        background-color: #fece51;
+        background-color: black;
+        border-radius: 6px;
+        color: white;
         cursor: pointer;
         border: none;
         position: relative;
